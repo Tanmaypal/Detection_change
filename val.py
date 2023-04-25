@@ -61,7 +61,7 @@ def val(opt):
         model.set_input(data)  # unpack data from data loader
         score = model.test(val=True)           # run inference return confusion_matrix
         running_metrics.update(score)
-
+        print("helloo")
         visuals = model.get_current_visuals()  # get image results
         img_path = model.get_image_paths()     # get image paths
         if i % 5 == 0:  # save images to an HTML file
