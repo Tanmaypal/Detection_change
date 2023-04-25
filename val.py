@@ -7,7 +7,7 @@ from util.util import save_visuals
 from util.metrics import AverageMeter
 import numpy as np
 from util.util import mkdir
-
+print("hellllllloooooo")
 def make_val_opt(opt):
 
     # hard-code some parameters for test
